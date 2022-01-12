@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".CaptureImage">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="410dp"
+        android:layout_height="620dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textureView"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:ignore="SpeakableTextPresentCheck"/>
+
+</RelativeLayout>

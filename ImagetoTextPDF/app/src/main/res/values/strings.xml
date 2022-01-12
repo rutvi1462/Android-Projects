@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Image to Text PDF</string>
+    <string name="generate_pdf">Generate PDF</string>
+</resources>
